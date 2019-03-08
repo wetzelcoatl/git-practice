@@ -8,6 +8,7 @@ test
 -git commit changes from staging area to current branch
 -git config: set or get configuration
 -git log: show history of project commits
+git checkout: check out branch 
 
 
 ## commit messages
