@@ -16,3 +16,7 @@ Default editor is vim (can be changed)
 or use git commit -m <message> to insert
 
 first line should be clear
+
+git branch -c: create a branch
+
+git checkout: check out (switch to) a branch
