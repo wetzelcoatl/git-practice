@@ -22,3 +22,5 @@ first line should be clear
 ## Merging
 
 Merging means to bring the changes from one branch into another
+
+A fast-forward merge happens when the target branch was branched from the current one, and there are no new changes to the current branch since then.
