@@ -18,3 +18,7 @@ Default editor is vim (can be changed)
 or use git commit -m <message> to insert
 
 first line should be clear
+
+## Merging
+
+Merging means to bring the changes from one branch into another
