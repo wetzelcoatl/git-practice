@@ -1,4 +1,4 @@
-adfdfadfd fadfaefeawf
+
 
 test
 
@@ -8,8 +8,9 @@ test
 -git commit changes from staging area to current branch
 -git config: set or get configuration
 -git log: show history of project commits
-git checkout: check out branch 
-
+-git checkout: check out branch
+-git show: show a single commits
+- git diff: show the difference between commits, the staging area and the working directory
 
 ## commit messages
 
