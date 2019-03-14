@@ -11,7 +11,7 @@ test
 -git checkout: check out branch
 -git show: show a single commits
 - git diff: show the difference between commits, the staging area and the working directory
-
+git merege: Merge changes from different branches
 ## commit messages
 
 Default editor is vim (can be changed)
