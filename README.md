@@ -18,6 +18,7 @@ test
 -git remote add <remote? <url>: add a new <remote> at <url>
 -git remote -v: list remote repositories
 -git push -u <rmeote> <branch>: push <branch> to <remote>, and set default upstream for <branch>
+-git fetch: fetch changes from remote repository
 
 a branch is a reference to a commit. when HEAD points to a branch, we say we're "on" that branch. When we make a commit while we're on a branch, the branch is updated to refer to the new commits
 
