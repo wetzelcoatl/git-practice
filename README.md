@@ -8,9 +8,10 @@ test
 -git commit changes from staging area to current branch
 -git config: set or get configuration
 -git log: show a history (or log) of project commits
--git checkout: check out branch
+git checkout: check out (switch to) a branch
 -git show: show a single commits
 - git diff: show the difference between commits, the staging area and the working directory
+git branch -c: create a branch
 git merege: Merge changes from different branches
 ## commit messages
 
@@ -26,3 +27,5 @@ Merging means to bring the changes from one branch into another
 A fast-forward merge happens when the target branch was branched from the current one, and there are no new changes to the current branch since then.
 
 An automatic merge happens when the tow histories have diverged, but git is able ot reconcile them into one set of changes. This creates a new commit on the current branch
+
+>>>>>>> first-branch
