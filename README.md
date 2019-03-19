@@ -19,6 +19,7 @@ test
 -git remote -v: list remote repositories
 -git push -u <rmeote> <branch>: push <branch> to <remote>, and set default upstream for <branch>
 -git fetch: fetch changes from remote repository
+-git pull: fetch, then merge
 
 a branch is a reference to a commit. when HEAD points to a branch, we say we're "on" that branch. When we make a commit while we're on a branch, the branch is updated to refer to the new commits
 
@@ -45,3 +46,9 @@ Merging means to bring the changes from one branch into another
 A fast-forward merge happens when the target branch was branched from the current one, and there are no new changes to the current branch since then.
 
 An automatic merge happens when the two histories have diverged, but git is able ot reconcile them into one set of changes. This creates a new commit on the current branch
+
+##What's a remote?
+
+A remote repo is one hosted somewhere other than our local machine. We can addremotes with 'git remote add', and set up *tracking branches* to track differences between our local and remote repos.
+
+we can push to remotes with 'git push' and fetch from the with 'git fetch'. We can also fetch and merge in one command with git pull.
